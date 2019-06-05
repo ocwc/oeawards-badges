@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&display=swap');
+
+@import "normalize";
+
+// Variables
+$badge_w: 300px;
+$badge_pad: 16px;
+$shape_size: 80%;
+$icon_size: 66%;
+
+$color_black: #454545;
+$color_white: #f4f4f4;
+
+$Montserrat: 'Montserrat', sans-serif;
+
+// Global
+body {
+  font-family: $Montserrat;
+}
+
+header, footer {
+  height: 100px;
+  background: gray;
+}
+
+// single-badge
+.badge-container {
+  padding: 16px;
+  
+  @media screen and (min-width: 700px) {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.badge {
+  width: $badge_w;
+  box-sizing: border-box;
+  padding: $badge_pad;
+  text-align: center;
+
+  &.black {
+    color: $color_black;
+  }
+
+  &.white {
+    color: $color_white;
+  }
+
+  p {
+    margin: 4px 0;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+
+    &.award {
+      text-transform: uppercase;
+    }
+  }
+
+  .graphic {
+    width: $shape_size;
+    height: auto;
+    position: relative;
+    margin: 8px auto;
+    display: block;
+    clear: both;
+    
+    .shape {
+      width: 100%;
+      height: auto;
+    }
+
+    .icon {
+      width: $icon_size;
+      height: auto;
+      z-index: 2;
+      position: absolute;
+      left: calc(50% - #{$icon_size} / 2);
+      top: calc(50% - #{$icon_size} / 2);
+    }
+  }
+}
+
+.facebook-post {
+  width: 1200px;
+  height: 1200px;
+  background: #3E8FDD;
+  position: relative;
+  display: flex;
+  align-content: center;
+
+  .oec-white {
+    top: 32px;
+    left: calc(50% - 480px/2);
+    position: absolute;
+    width: 480px;
+    height: 144px;
+  }
+
+  .badge {
+    width: 600px;
+    position: absolute;
+    top: 184px;
+    left: calc(50% - 600px/2);
+    
+    p {
+      font-size: 44px;
+    }
+  }
+}
+
+.oea-title {
+  position: absolute;
+  bottom: 32px;
+  text-align: center;
+  width: 100%;
+  color: $color_white;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sun-rays {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #3E8FDD, rgb(81, 159, 232));
+  -webkit-mask-image: repeating-conic-gradient(transparent 0 10deg, white 0 20deg);
+}
+
+.facebook-cover {
+  width: 828px;
+  height: 315px;
+  background: #3E8FDD;
+  position: relative;
+
+  .oec-white {
+    top: calc(50% - 72px/2);
+    left: 32px;
+    position: absolute;
+    width: 240px;
+    height: 72px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .badge {
+    width: 222px;
+    position: absolute;
+    top: 14px;
+    left: calc(50% - 222px/2);
+
+    p {
+      font-size: 16px
+    }
+  }
+
+  .oea-title {
+    font-size: 16px;
+    bottom: 50%;
+    right: 32px;
+    text-align: right;
+    width: 50%; 
+  }
+
+}
+
+.email-image{
+  width: 600px;
+  height: 477px;
+  background: #3E8FDD;
+  position: relative;
+
+  .oec-white {
+    top: 16px;
+    left: calc(50% - 240px /2);
+    position: absolute;
+    width: 240px;
+    height: 72px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .badge {
+    width: 242px;
+    position: absolute;
+    top: 88px;
+    left: calc(50% - 222px/2);
+
+    p {
+      font-size: 16px
+    }
+  }
+
+  .oea-title {
+    font-size: 16px;
+    bottom: 24px;
+    text-align: center;
+    width: 100%; 
+  }
+}

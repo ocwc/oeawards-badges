@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480px" height="480px" viewBox="0 0 480 480" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>Badge/Shape/Classic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M416,480 L64,480 C64,444.653776 35.346224,416 0,416 L0,64 C35.346224,64 64,35.346224 64,0 L416,0 C416,35.346224 444.653776,64 480,64 L480,416 C444.653776,416 416,444.653776 416,480 Z" id="path-1"></path>
+        <linearGradient x1="50%" y1="34.2603601%" x2="50%" y2="96.8127264%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Badge/Badge" transform="translate(0.000000, -28.000000)">
+            <g id="Badge/Shape/Classic" transform="translate(0.000000, -4.000000)">
+                <g transform="translate(0.000000, 32.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Background-Color" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <path d="M406.669933,470 C411.11014,437.130811 437.130811,411.11014 470,406.669933 L470,73.3300665 C437.130811,68.8898604 411.11014,42.8691889 406.669933,10 L73.3300665,10 C68.8898604,42.8691889 42.8691889,68.8898604 10,73.3300665 L10,406.669933 C42.8691889,411.11014 68.8898604,437.130811 73.3300665,470 L406.669933,470 Z" id="Outline" stroke="#494949" stroke-width="20" opacity="0.196823847" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    <path d="M391.784577,445.999993 C397.893625,419.080349 419.080349,397.893625 445.999993,391.784577 L446,89.2154312 C418.726634,83.0263429 397.366805,61.3726385 391.565153,34.0000067 L88.4348482,34 C82.6331949,61.3726385 61.2733662,83.0263429 34.0000071,89.2154295 L34,391.784576 C60.9196507,397.893625 82.1063748,419.080349 88.2154226,445.999993 L391.784576,446 Z" id="Inline" stroke="#494949" stroke-width="4" opacity="0.112234933" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    <rect id="Overlay" fill="url(#linearGradient-3)" fill-rule="nonzero" opacity="0.182477679" style="mix-blend-mode: multiply;" mask="url(#mask-2)" x="0" y="-31" width="480" height="543"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
