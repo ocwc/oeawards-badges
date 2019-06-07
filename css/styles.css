@@ -443,4 +443,94 @@ header, footer {
     text-align: center;
     width: 100%; }
 
-/*# sourceMappingURL=styles.css.map */
+.certificate-image {
+  width: 792px;
+  height: 612px;
+  display: flex;
+  border: 1px solid gray;
+  background: url(../img/logo-icon.svg) no-repeat white 315px 88px; }
+  .certificate-image .content {
+    position: relative;
+    width: 632px;
+    padding: 40px;
+    box-sizing: border-box;
+    color: #454545;
+    background: transparent; }
+    .certificate-image .content .data {
+      position: relative;
+      padding-top: 40px; }
+      .certificate-image .content .data:before {
+        content: "";
+        background: #D9F593;
+        width: 132px;
+        height: 16px;
+        position: absolute;
+        left: 0;
+        top: -16px; }
+      .certificate-image .content .data .badge-horizontal {
+        display: flex;
+        align-items: center;
+        margin: 16px 0 40px; }
+        .certificate-image .content .data .badge-horizontal .icon {
+          width: 80px;
+          margin-right: 16px; }
+        .certificate-image .content .data .badge-horizontal .award {
+          font-size: 24px;
+          letter-spacing: -0.25px;
+          text-transform: uppercase;
+          font-weight: 700; }
+      .certificate-image .content .data .project {
+        font-size: 42px;
+        color: #454545;
+        letter-spacing: -0.71px;
+        font-weight: 700;
+        margin: 16px 0; }
+      .certificate-image .content .data .name {
+        margin: 16px 0;
+        font-size: 18px;
+        letter-spacing: -0.31px; }
+      .certificate-image .content .data .org {
+        margin: 16px 0;
+        font-size: 16px;
+        letter-spacing: -0.31px; }
+    .certificate-image .content .signatures {
+      position: absolute;
+      bottom: 40px;
+      display: flex;
+      width: 632px;
+      justify-content: flex-start; }
+      .certificate-image .content .signatures .one, .certificate-image .content .signatures .two {
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        margin-right: 40px;
+        min-width: 180px;
+        border-top: 1px solid #454545;
+        padding-top: 8px; }
+        .certificate-image .content .signatures .one span, .certificate-image .content .signatures .two span {
+          font-size: 12px;
+          font-style: italic;
+          font-weight: 300; }
+  .certificate-image .ribbon {
+    width: 160px;
+    background: #3E8FDD;
+    padding: 40px 40px 40px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap; }
+    .certificate-image .ribbon .oec-oval {
+      width: 100%;
+      align-self: flex-start; }
+    .certificate-image .ribbon .oea-logo {
+      width: 90%;
+      margin: 0 auto;
+      align-self: flex-end; }
+    .certificate-image .ribbon .year {
+      font-size: 24px;
+      letter-spacing: 0.5px;
+      font-weight: 700;
+      color: #f4f4f4;
+      width: 100%;
+      align-self: flex-end;
+      text-shadow: 1px 1px 2px rgba(29, 29, 29, 0.8); }
