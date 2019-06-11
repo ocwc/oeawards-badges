@@ -1,0 +1,27 @@
+[sample-data]
+award = "Leadership Award for Excellence"
+name = "Mahnaz Farzin"
+org = "Austin University"
+year = "2019"
+icon = "Leader"
+shape = "Classic"
+
+[[files]]
+	filename = "single-badge.html"
+	format = "png"
+
+[[files]]
+	filename = "single-certificate.html"
+	format = "pdf"
+
+[[files]]
+	filename = "single-email.html"
+	format = "png"
+
+[[files]]
+	filename = "single-facebook-cover.html"
+	format = "png"
+
+[[files]]
+	filename = "single-facebook.html"
+	format = "png"
