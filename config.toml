@@ -8,7 +8,10 @@ shape = "Classic"
 
 [[files]]
 	filename = "single-badge.html"
+	element = "#screenshot"
 	format = "png"
+	screen_width = 2000
+	screen_height = 2000
 
 [[files]]
 	filename = "single-certificate.html"
