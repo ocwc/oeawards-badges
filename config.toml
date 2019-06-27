@@ -15,16 +15,28 @@ shape = "Classic"
 
 [[files]]
 	filename = "single-certificate.html"
+	element = "#screenshot"
 	format = "pdf"
+
 
 [[files]]
 	filename = "single-email.html"
+	element = "#screenshot"
 	format = "png"
+	screen_width = 2000
+	screen_height = 2000
 
 [[files]]
 	filename = "single-facebook-cover.html"
+	element = "#screenshot"
 	format = "png"
+	screen_width = 2000
+	screen_height = 2000
+
 
 [[files]]
 	filename = "single-facebook.html"
+	element = "#screenshot"
 	format = "png"
+	screen_width = 2000
+	screen_height = 2000
