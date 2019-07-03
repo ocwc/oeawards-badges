@@ -19,7 +19,8 @@
 	<main>
 	
 		<div class="badge-container">
-      <div class="facebook-cover" id="screenshot">
+      <p>{{data.award|slugify}}</p>
+      <div class="facebook-cover icon-type-{{data.award|slugify}}" id="screenshot">
         <div class="sun-rays"></div>
         <div class="oec-white"><img src="{{TEMPLATE_STATIC}}img/inverted.svg" alt="Logo"></div>
           <div class="badge white">
