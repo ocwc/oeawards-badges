@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="464px" height="480px" viewBox="0 0 464 480" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Badge/Shape/Rounded Rect</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="8" y="33" width="464" height="480" rx="20"></rect>
+    </defs>
+    <g id="Badges" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Badge/Shape/Rounded-Rect" transform="translate(-8.000000, -33.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Background" fill="#F4F4F4" fill-rule="nonzero" transform="translate(240.000000, 273.000000) scale(1, -1) translate(-240.000000, -273.000000) " xlink:href="#path-1"></use>
+            <rect id="Outline" stroke="#494949" stroke-width="4" opacity="0.112234933" fill-rule="nonzero" mask="url(#mask-2)" x="10" y="35" width="460" height="476" rx="20"></rect>
+            <path d="M388.828427,42.5979797 L461.195959,114.965512 L461.195959,52.5979797 C461.195959,47.0751322 456.718807,42.5979797 451.195959,42.5979797 L388.828427,42.5979797 Z M18.5979797,114.965512 L90.9655121,42.5979797 L28.5979797,42.5979797 C23.0751322,42.5979797 18.5979797,47.0751322 18.5979797,52.5979797 L18.5979797,114.965512 Z M461.195959,428.828427 L388.828427,501.195959 L451.195959,501.195959 C456.718807,501.195959 461.195959,496.718807 461.195959,491.195959 L461.195959,428.828427 Z M90.9655121,501.195959 L18.5979797,428.828427 L18.5979797,491.195959 C18.5979797,496.718807 23.0751322,501.195959 28.5979797,501.195959 L90.9655121,501.195959 Z" id="Combined-Shape" stroke="#494949" stroke-width="4" opacity="0.112234933" fill-rule="nonzero" mask="url(#mask-2)"></path>
+            <rect id="Overlay" fill="#FFFFFF" fill-rule="nonzero" opacity="0.5" style="mix-blend-mode: multiply;" mask="url(#mask-2)" x="0" y="0" width="480" height="544"></rect>
+        </g>
+    </g>
+</svg>

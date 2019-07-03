@@ -5,7 +5,7 @@
   <meta charset="utf-8">
 
   <title>Facebook Image</title>
-  <meta name="description" content="Single badge page">
+  <meta name="description" content="Facebook cover">
   <meta name="author" content="OEC">
 
   <link rel="stylesheet" href="{{TEMPLATE_STATIC}}css/styles.css?v=1.0">
@@ -14,30 +14,23 @@
 </head>
 
 <body>
-	<header></header>
 
-	<main>
 	
-		<div class="badge-container">
-      <p>{{data.award|slugify}}</p>
-      <div class="facebook-cover icon-type-{{data.award|slugify}}" id="screenshot">
+      <div id="screenshot" class="facebook-cover">
         <div class="sun-rays"></div>
         <div class="oec-white"><img src="{{TEMPLATE_STATIC}}img/inverted.svg" alt="Logo"></div>
           <div class="badge white">
             <p class="award">{{data.award}}</p>
             <p class="year">{{data.year}}</p>
             <div class="graphic">
-              <img src="{{TEMPLATE_STATIC}}img/Badge/Shape/{{data.shape}}.svg" class="shape" alt="">
-              <img src="{{TEMPLATE_STATIC}}img/Badge/Badge/Icon/{{data.icon}}.svg" class="icon" alt="">
+              <img src="img/Badge/Shape/Classic.svg" class="shape" alt="">
+              <img src="img/Badge/Icon/Leader.svg" class="icon" alt="">
             </div><!-- .graphic -->
-          <p class="name">{{data.name}}</p>
-          <p class="org">{{data.org}}</p>
+          <p class="name">Mahnaz Farzin Dohrain Okototopus</p>
+          <p class="org">Austin University for the New Decade</p>
           </div><!-- .badge -->
         <div class="oea-title">Open Education Awards</div>
       </div><!-- .facebook-post -->
-    </div><!-- .badge-container -->
-	</main>
 
-	<footer></footer>
 </body>
 </html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Badge/Shape/Pointy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M303.94531,47.9726548 L463.972655,47.9726548 L463.972655,208 L511.94531,255.972655 L463.972655,303.94531 L463.972655,463.972655 L303.94531,463.972655 L255.972655,511.94531 L208,463.972655 L47.9726548,463.972655 L47.9726548,303.94531 L0,255.972655 L47.9726548,208 L47.9726548,47.9726548 L208,47.9726548 L255.972655,-2.84217094e-14 L303.94531,47.9726548 Z" id="path-1"></path>
+    </defs>
+    <g id="Badges" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Badge/Shape/Pointy" transform="translate(16.000000, -16.000000)">
+            <g transform="translate(-16.000000, 16.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Background-Color" fill="#F4F4F4" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <path d="M255.972655,14.1421356 L212.142136,57.9726548 L57.9726548,57.9726548 L57.9726548,212.142136 L14.1421356,255.972655 L57.9726548,299.803174 L57.9726548,453.972655 L212.142136,453.972655 L255.972655,497.803174 L299.803174,453.972655 L453.972655,453.972655 L453.972655,299.803174 L497.803174,255.972655 L453.972655,212.142136 L453.972655,57.9726548 L299.803174,57.9726548 L255.972655,14.1421356 Z" id="Outline" stroke="#494949" stroke-width="20" opacity="0.196823847" fill-rule="nonzero" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

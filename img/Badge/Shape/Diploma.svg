@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480px" height="509px" viewBox="0 0 480 509" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Badge/Shape/Diploma</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M428,480 L428,509 L408,493 L388,509 L388,480 L0,480 L0,0 L480,0 L480,480 L428,480 Z" id="path-1"></path>
+        <path d="M428,480 L428,508 L408,492 L388,508 L388,480 L0,480 L0,0 L480,0 L480,480 L428,480 Z" id="path-3"></path>
+        <path d="M428,480 L428,509 L408,493 L388,509 L388,480 L0,480 L0,0 L480,0 L480,480 L428,480 Z" id="path-5"></path>
+    </defs>
+    <g id="Badges" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Badge/Shape/Diploma" transform="translate(0.000000, -24.000000)">
+            <g id="Badge/Shape/Certificate" transform="translate(0.000000, 24.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Background-Color" fill="#F4F4F4" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <circle id="Oval" fill="#000000" fill-rule="nonzero" opacity="0.207798549" style="mix-blend-mode: multiply;" mask="url(#mask-2)" cx="407" cy="438" r="36"></circle>
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <path stroke="#494949" stroke-width="4" d="M478,478 L478,2 L2,2 L2,478 L390,478 L390,503.83875 L408,489.43875 L426,503.83875 L426,478 L478,478 Z"></path>
+                <rect id="Inline" stroke="#494949" stroke-width="4" opacity="0.112234933" fill-rule="nonzero" mask="url(#mask-4)" x="18" y="19" width="444" height="444"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" opacity="0.276599702" style="mix-blend-mode: multiply;" mask="url(#mask-4)" transform="translate(32.842406, 439.842406) rotate(45.000000) translate(-32.842406, -439.842406) " x="-63.1575939" y="424.342406" width="192" height="31"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" opacity="0.276599702" style="mix-blend-mode: multiply;" mask="url(#mask-4)" transform="translate(440.842406, 32.842406) rotate(45.000000) translate(-440.842406, -32.842406) " x="344.842406" y="17.3424061" width="192" height="31"></rect>
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <use id="Overlay" fill="#FFFFFF" fill-rule="nonzero" opacity="0.5" style="mix-blend-mode: multiply;" xlink:href="#path-5"></use>
+            </g>
+        </g>
+    </g>
+</svg>
