@@ -336,9 +336,15 @@ header, footer {
     margin: 4px 0;
     font-size: 24px;
     letter-spacing: 0.5px;
-    font-weight: 700; }
+    font-weight: 700;
+    line-height: 1.1; }
     .badge p.award {
       text-transform: uppercase; }
+    .badge p.org {
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 18px;
+      margin-top: 4px; }
   .badge .graphic {
     width: 80%;
     height: auto;
@@ -377,6 +383,9 @@ header, footer {
     left: calc(50% - 600px/2); }
     .facebook-post .badge p {
       font-size: 44px; }
+      .facebook-post .badge p.org {
+        font-size: 32px;
+        margin-top: 12px; }
 
 .oea-title {
   position: absolute;
@@ -415,6 +424,8 @@ header, footer {
     left: calc(50% - 222px/2); }
     .facebook-cover .badge p {
       font-size: 16px; }
+      .facebook-cover .badge p.org {
+        font-size: 12px; }
   .facebook-cover .oea-title {
     font-size: 16px;
     bottom: 50%;
@@ -446,10 +457,12 @@ header, footer {
   .email-image .badge {
     width: 242px;
     position: absolute;
-    top: 88px;
+    top: 72px;
     left: calc(50% - 222px/2); }
     .email-image .badge p {
-      font-size: 16px; }
+      font-size: 18px; }
+      .email-image .badge p.org {
+        font-size: 14px; }
   .email-image .oea-title {
     font-size: 16px;
     bottom: 24px;

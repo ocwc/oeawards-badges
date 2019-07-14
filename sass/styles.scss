@@ -58,9 +58,17 @@ header, footer {
     font-size: 24px;
     letter-spacing: 0.5px;
     font-weight: 700;
+    line-height: 1.1;
 
     &.award {
       text-transform: uppercase;
+    }
+
+    &.org {
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 18px;
+      margin-top: 4px;
     }
   }
 
@@ -88,6 +96,7 @@ header, footer {
   }
 }
 
+//Facebook post image (square)
 .facebook-post {
   width: 1200px;
   height: 1200px;
@@ -112,6 +121,11 @@ header, footer {
     
     p {
       font-size: 44px;
+
+      &.org {
+        font-size: 32px;
+        margin-top: 12px;
+      }
     }
   }
 }
@@ -135,6 +149,7 @@ header, footer {
   -webkit-mask-image: repeating-conic-gradient(transparent 0 10deg, white 0 20deg);
 }
 
+//Facebook cover image - (landscape)
 .facebook-cover {
   width: 828px;
   height: 315px;
@@ -160,7 +175,11 @@ header, footer {
     left: calc(50% - 222px/2);
 
     p {
-      font-size: 16px
+      font-size: 16px;
+
+      &.org {
+        font-size: 12px;
+      }
     }
   }
 
@@ -205,11 +224,15 @@ header, footer {
   .badge {
     width: 242px;
     position: absolute;
-    top: 88px;
+    top: 72px;
     left: calc(50% - 222px/2);
 
     p {
-      font-size: 16px
+      font-size: 18px;
+
+      &.org {
+        font-size: 14px;
+      }
     }
   }
 
