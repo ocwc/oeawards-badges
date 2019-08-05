@@ -8,7 +8,7 @@
   <meta name="description" content="Certificate">
   <meta name="author" content="OEC">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0" media="screen, print">
+  <link rel="stylesheet" href="{{TEMPLATE_STATIC}}css/styles.css?v=1.0" media="screen, print">
 
   <style>
     @page {
@@ -38,17 +38,16 @@
       <div class="data">
         
         <div class="badge-horizontal">
-          <img src="img/Badge/Icon/Leader.svg" class="icon">
+          <img src="{{TEMPLATE_STATIC}}img/Badge/Icon/{{data.icon}}.svg" class="icon" alt="">
           <div class="award">
-            Leadership<br>
-            Open Education Award
+            {{data.award}}
           </div>
         </div>
         
         
-        <div class="project">Impact for a Better Society</div>
-        <div class="name">Mahnaz Farzin</div>
-        <div class="org">Austin University</div>
+        <div class="project">{{data.project}}</div>
+        <div class="name">{{data.name}}</div>
+        <div class="org">{{data.org}}</div>
 
         </div><!-- .data -->
 
@@ -69,11 +68,11 @@
     </div><!-- .content -->
 
     <div class="ribbon">
-        <img src="img/oec-oval-logo.svg" class="oec-oval">
+        <img src="{{TEMPLATE_STATIC}}img/oec-oval-logo.svg" class="oec-oval">
 
         <div class="year">
-          <img src="img/oeawards-vertical.svg" class="oea-logo">
-          2019
+          <img src="{{TEMPLATE_STATIC}}img/oeawards-vertical.svg" class="oea-logo">
+          {{data.year}}
         </div>
     </div><!-- .ribbon -->
     
