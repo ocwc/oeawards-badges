@@ -539,7 +539,13 @@ header, footer {
         margin-right: 20mm;
         min-width: 40mm;
         border-top: 1px solid #454545;
-        padding-top: 8px; }
+        padding-top: 8px;
+        position: relative; }
+        .certificate-image .content .signatures .one img, .certificate-image .content .signatures .two img {
+          position: absolute;
+          bottom: 102%;
+          left: calc(50% - 93px);
+          width: 186px; }
         .certificate-image .content .signatures .one p, .certificate-image .content .signatures .two p {
           line-height: 1.5; }
         .certificate-image .content .signatures .one span, .certificate-image .content .signatures .two span {
