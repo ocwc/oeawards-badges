@@ -54,14 +54,18 @@ header, footer {
   }
 
   p {
-    margin: 4px 0;
-    font-size: 24px;
+    margin: 2px 0;
+    font-size: 22px;
     letter-spacing: 0.5px;
     font-weight: 700;
     line-height: 1.1;
 
     &.award {
       text-transform: uppercase;
+    }
+
+    &.year {
+      font-size: 20px;
     }
 
     &.org {
@@ -92,6 +96,20 @@ header, footer {
       position: absolute;
       left: calc(50% - #{$icon_size} / 2);
       top: calc(50% - #{$icon_size} / 2);
+    }
+  }
+
+  .oec-ribbon {
+    width: 100%;
+    margin-top: 12px;
+    text-align: center;
+
+    img {
+      width: 68%;
+      background-color: #3E8FDD;
+      padding: 6px 12px;
+      margin: 0 auto;
+      border-radius: 4px;
     }
   }
 }
@@ -126,6 +144,16 @@ header, footer {
         font-size: 32px;
         margin-top: 12px;
       }
+    }
+
+    .award,
+    .year,
+    .name,
+    .org {
+      overflow: visible; 
+      white-space: nowrap;
+      text-align: center;
+      margin: 24px -300px;
     }
   }
 }
@@ -193,6 +221,8 @@ header, footer {
     white-space: nowrap;
   }
 
+  .award,
+  .year,
   .name,
   .org {
     overflow: visible; 
@@ -202,6 +232,8 @@ header, footer {
   }
 
 }
+
+// Email Image
 
 .email-image{
   width: 600px;
@@ -243,6 +275,8 @@ header, footer {
     width: 100%; 
   }
 
+  .award,
+  .year,
   .name,
   .org {
     overflow: visible; 
@@ -258,7 +292,6 @@ header, footer {
   width: 297mm;
   display: flex;
   border: 1px solid gray;
-  background: url(../img/logo-icon.svg) no-repeat white 315px 88px;
 
   .content {
     position: relative;
@@ -271,6 +304,7 @@ header, footer {
     .data {
       position: relative;
       padding-top: 10mm;
+      z-index: 99;
       
       &:before {
         content: "";
@@ -293,15 +327,16 @@ header, footer {
         }
 
         .award {
-        font-size: 24px;
+        font-size: 32px;
         letter-spacing: -0.25px;
         text-transform: uppercase;
         font-weight: 700;
+        margin: 0;
         }
       }
 
       .project {
-        font-size: 42px;
+        font-size: 54px;
         color: #454545;
         letter-spacing: -0.71px;
         font-weight: 700;
@@ -309,14 +344,14 @@ header, footer {
       }
 
       .name {
-        margin: 6mm 0;
-        font-size: 18px;
+        margin: 12mm 0 6mm;
+        font-size: 32px;
         letter-spacing: -0.31px;
       }
 
       .org {
-        margin: 6mm 0;
-        font-size: 16px;
+        margin: 0;
+        font-size: 24px;
         letter-spacing: -0.31px;
       }
     }
@@ -368,6 +403,17 @@ header, footer {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+
+    &:before {
+      content: "";
+      background: url(../img/logo-icon.svg) no-repeat;
+      height: 445px;
+      width: 435px;
+      position: absolute;
+      left: 200mm;
+      top: 40mm;
+      mix-blend-mode: multiply;
+    }
 
     .oec-oval {
       width: 35mm;
