@@ -333,20 +333,18 @@ header, footer {
   .badge.white {
     color: #f4f4f4; }
   .badge p {
-    margin: 2px 0;
-    font-size: 22px;
+    margin: 4px 0;
+    font-size: 18px;
     letter-spacing: 0.5px;
     font-weight: 700;
     line-height: 1.1; }
     .badge p.award {
       text-transform: uppercase; }
-    .badge p.year {
-      font-size: 20px; }
     .badge p.org {
       font-weight: 400;
       text-transform: uppercase;
-      font-size: 18px;
-      margin-top: 4px; }
+      font-size: 16px;
+      margin-top: 8px; }
   .badge .graphic {
     width: 80%;
     height: auto;
@@ -364,16 +362,15 @@ header, footer {
       position: absolute;
       left: calc(50% - 66% / 2);
       top: calc(50% - 66% / 2); }
-  .badge .oec-ribbon {
-    width: 100%;
-    margin-top: 12px;
-    text-align: center; }
-    .badge .oec-ribbon img {
-      width: 68%;
-      background-color: #3E8FDD;
-      padding: 6px 12px;
-      margin: 0 auto;
-      border-radius: 4px; }
+
+.oec-ribbon {
+  width: 100%;
+  margin-bottom: 8px;
+  text-align: center; }
+  .oec-ribbon img {
+    width: 68%;
+    border-radius: 4px;
+    margin-left: -2px; }
 
 .facebook-post {
   width: 1200px;

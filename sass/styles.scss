@@ -54,8 +54,8 @@ header, footer {
   }
 
   p {
-    margin: 2px 0;
-    font-size: 22px;
+    margin: 4px 0;
+    font-size: 18px;
     letter-spacing: 0.5px;
     font-weight: 700;
     line-height: 1.1;
@@ -64,15 +64,11 @@ header, footer {
       text-transform: uppercase;
     }
 
-    &.year {
-      font-size: 20px;
-    }
-
     &.org {
       font-weight: 400;
       text-transform: uppercase;
-      font-size: 18px;
-      margin-top: 4px;
+      font-size: 16px;
+      margin-top: 8px;
     }
   }
 
@@ -98,19 +94,16 @@ header, footer {
       top: calc(50% - #{$icon_size} / 2);
     }
   }
+}
+.oec-ribbon {
+  width: 100%;
+  margin-bottom: 8px;
+  text-align: center;
 
-  .oec-ribbon {
-    width: 100%;
-    margin-top: 12px;
-    text-align: center;
-
-    img {
-      width: 68%;
-      background-color: #3E8FDD;
-      padding: 6px 12px;
-      margin: 0 auto;
-      border-radius: 4px;
-    }
+  img {
+    width: 68%;
+    border-radius: 4px;
+    margin-left: -2px;
   }
 }
 
