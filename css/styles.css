@@ -334,7 +334,7 @@ header, footer {
     color: #f4f4f4; }
   .badge p {
     margin: 4px 0;
-    font-size: 24px;
+    font-size: 18px;
     letter-spacing: 0.5px;
     font-weight: 700;
     line-height: 1.1; }
@@ -343,10 +343,10 @@ header, footer {
     .badge p.org {
       font-weight: 400;
       text-transform: uppercase;
-      font-size: 18px;
-      margin-top: 4px; }
+      font-size: 16px;
+      margin-top: 8px; }
   .badge .graphic {
-    width: 80%;
+    width: 60%;
     height: auto;
     position: relative;
     margin: 8px auto;
@@ -362,6 +362,15 @@ header, footer {
       position: absolute;
       left: calc(50% - 66% / 2);
       top: calc(50% - 66% / 2); }
+
+.oec-ribbon {
+  width: 100%;
+  margin-bottom: 8px;
+  text-align: center; }
+  .oec-ribbon img {
+    width: 68%;
+    border-radius: 4px;
+    margin-left: -2px; }
 
 .facebook-post {
   width: 1200px;
@@ -386,6 +395,14 @@ header, footer {
       .facebook-post .badge p.org {
         font-size: 32px;
         margin-top: 12px; }
+    .facebook-post .badge .award,
+    .facebook-post .badge .year,
+    .facebook-post .badge .name,
+    .facebook-post .badge .org {
+      overflow: visible;
+      white-space: nowrap;
+      text-align: center;
+      margin: 24px -300px; }
 
 .oea-title {
   position: absolute;
@@ -434,6 +451,8 @@ header, footer {
     width: 30%;
     overflow: visible;
     white-space: nowrap; }
+  .facebook-cover .award,
+  .facebook-cover .year,
   .facebook-cover .name,
   .facebook-cover .org {
     overflow: visible;
@@ -468,6 +487,8 @@ header, footer {
     bottom: 24px;
     text-align: center;
     width: 100%; }
+  .email-image .award,
+  .email-image .year,
   .email-image .name,
   .email-image .org {
     overflow: visible;
@@ -479,8 +500,7 @@ header, footer {
   height: 209mm;
   width: 297mm;
   display: flex;
-  border: 1px solid gray;
-  background: url(../img/logo-icon.svg) no-repeat white 315px 88px; }
+  border: 1px solid gray; }
   .certificate-image .content {
     position: relative;
     width: 250mm;
@@ -490,7 +510,8 @@ header, footer {
     background: transparent; }
     .certificate-image .content .data {
       position: relative;
-      padding-top: 10mm; }
+      padding-top: 10mm;
+      z-index: 99; }
       .certificate-image .content .data:before {
         content: "";
         background: #D9F593;
@@ -507,23 +528,24 @@ header, footer {
           width: 80px;
           margin-right: 6mm; }
         .certificate-image .content .data .badge-horizontal .award {
-          font-size: 24px;
+          font-size: 32px;
           letter-spacing: -0.25px;
           text-transform: uppercase;
-          font-weight: 700; }
+          font-weight: 700;
+          margin: 0; }
       .certificate-image .content .data .project {
-        font-size: 42px;
+        font-size: 54px;
         color: #454545;
         letter-spacing: -0.71px;
         font-weight: 700;
         margin: 6mm 0; }
       .certificate-image .content .data .name {
-        margin: 6mm 0;
-        font-size: 18px;
+        margin: 12mm 0 6mm;
+        font-size: 32px;
         letter-spacing: -0.31px; }
       .certificate-image .content .data .org {
-        margin: 6mm 0;
-        font-size: 16px;
+        margin: 0;
+        font-size: 24px;
         letter-spacing: -0.31px; }
     .certificate-image .content .signatures {
       position: absolute;
@@ -561,6 +583,15 @@ header, footer {
     text-align: center;
     display: flex;
     flex-wrap: wrap; }
+    .certificate-image .ribbon:before {
+      content: "";
+      background: url(../img/logo-icon.svg) no-repeat;
+      height: 445px;
+      width: 435px;
+      position: absolute;
+      left: 200mm;
+      top: 40mm;
+      mix-blend-mode: multiply; }
     .certificate-image .ribbon .oec-oval {
       width: 35mm;
       align-self: flex-start; }
