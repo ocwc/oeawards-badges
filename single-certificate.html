@@ -18,41 +18,56 @@
     @media print {
       #screenshot {
         height: 209mm;
-        width: 297mm;
+        width: 316mm;
         border: none;
       }
       /* ... the rest of the rules ... */
+
+      .certificate-image .content {
+        width: 270mm;
+      }
+
+      .ribbon {
+        height: 223mm;
+        margin-right: -20mm;
+      }
+
+      .year {
+          -webkit-print-color-adjust:exact;
+          -webkit-filter:opacity(1);
+      }
     }
   </style>
-	
+
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </head>
 
 <body>
-	
-      
+
+
   <div id="screenshot" class="certificate-image">
-    
+
     <div class="content">
-      
+
       <div class="data">
-        
+
         <div class="badge-horizontal">
           <img src="{{TEMPLATE_STATIC}}img/badge/icon/{{data.icon}}.svg" class="icon">
           <div class="award">
-            {{data.award}}
+            {{data.category}}
               <p class="award">Award for Excellence</p>
           </div>
         </div>
 
-          <div class="project">{{data.project}}</div>
-          <div class="name">{{data.name1}} {% if data.name2 %}{{data.name2}}{% endif %}</div>
-          {% if data.org %}<div class="org">{{data.org}}</div>{% endif %}
+          <!-- <div class="project">{{data.project}}</div> -->
+          <div class="project">{{data.winner1}}{% if data.winner2 %} {{data.winner2}}{% endif %}{% if data.winner3 %}{{data.winner3}}{% endif %}</div>
+          {% if data.name %}<div class="name">{{data.name}}</div>{% endif %}
+          {% if data.institutionc %}<div class="org">{{data.institutionc}}</div>{% endif %}
 
       </div><!-- .data -->
 
         <div class="signatures">
-            
+
           <div class="one">
             <img src="{{TEMPLATE_STATIC}}img/willem_signature.png">
             <p>Willem Van Valkenburg
@@ -65,8 +80,8 @@
             <span>Executive Director</span></p>
           </div>
         </div>
-        
-    
+
+
     </div><!-- .content -->
 
     <div class="ribbon">
@@ -77,8 +92,8 @@
           {{data.year}}
         </div>
     </div><!-- .ribbon -->
-    
-    
+
+
   </div><!-- .certificate-image -->
 </body>
 </html>

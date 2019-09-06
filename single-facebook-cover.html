@@ -20,14 +20,14 @@
         <div class="sun-rays"></div>
         <div class="oec-white"><img src="{{TEMPLATE_STATIC}}img/inverted.svg" alt="Logo"></div>
           <div class="badge white">
-              <p class="award">{{data.award}}</p>
+              <p class="award">{{data.category}}</p>
               <p class="year">Award for Excellence<br>{{data.year}}</p>
             <div class="graphic">
               <img src="{{TEMPLATE_STATIC}}img/badge/shape/{{data.shape}}.svg" class="shape" alt="">
               <img src="{{TEMPLATE_STATIC}}img/badge/icon/{{data.icon}}.svg" class="icon" alt="">
             </div><!-- .graphic -->
-          <p class="name">{{data.name1}} {% if data.name2 %}{{data.name2}}{% endif %}</p>
-          {% if data.org %}<p class="org">{{data.org}}</p>{% endif %}
+          <p class="name">{{data.winner1}} {% if data.winner2 %}{{data.winner2}}{% endif %}</p>
+          {% if data.institutionb %}<p class="org">{{data.institutionb}}</p>{% endif %}
           </div><!-- .badge -->
         <div class="oea-title">Open Education Awards</div>
       </div><!-- .facebook-post -->
