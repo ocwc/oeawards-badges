@@ -10,7 +10,8 @@ html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+  /* 2 */
+}
 
 /* Sections
    ========================================================================== */
@@ -18,13 +19,15 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 /**
  * Render the `main` element consistently in IE.
  */
 main {
-  display: block; }
+  display: block;
+}
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -32,7 +35,8 @@ main {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0;
+}
 
 /* Grouping content
    ========================================================================== */
@@ -46,7 +50,8 @@ hr {
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -56,7 +61,8 @@ pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */ }
+  /* 2 */
+}
 
 /* Text-level semantics
    ========================================================================== */
@@ -64,7 +70,8 @@ pre {
  * Remove the gray background on active links in IE 10.
  */
 a {
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 /**
  * 1. Remove the bottom border in Chrome 57-
@@ -76,14 +83,16 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   text-decoration: underline dotted;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 b,
 strong {
-  font-weight: bolder; }
+  font-weight: bolder;
+}
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -95,13 +104,15 @@ samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Add the correct font size in all browsers.
  */
 small {
-  font-size: 80%; }
+  font-size: 80%;
+}
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
@@ -112,13 +123,16 @@ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 sub {
-  bottom: -0.25em; }
+  bottom: -0.25em;
+}
 
 sup {
-  top: -0.5em; }
+  top: -0.5em;
+}
 
 /* Embedded content
    ========================================================================== */
@@ -126,7 +140,8 @@ sup {
  * Remove the border on images inside links in IE 10.
  */
 img {
-  border-style: none; }
+  border-style: none;
+}
 
 /* Forms
    ========================================================================== */
@@ -146,7 +161,8 @@ textarea {
   line-height: 1.15;
   /* 1 */
   margin: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Show the overflow in IE.
@@ -155,7 +171,8 @@ textarea {
 button,
 input {
   /* 1 */
-  overflow: visible; }
+  overflow: visible;
+}
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
@@ -164,41 +181,46 @@ input {
 button,
 select {
   /* 1 */
-  text-transform: none; }
+  text-transform: none;
+}
 
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button; }
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
 
 /**
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
   border-style: none;
-  padding: 0; }
+  padding: 0;
+}
 
 /**
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText; }
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
 
 /**
  * Correct the padding in Firefox.
  */
 fieldset {
-  padding: 0.35em 0.75em 0.625em; }
+  padding: 0.35em 0.75em 0.625em;
+}
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -218,53 +240,60 @@ legend {
   padding: 0;
   /* 3 */
   white-space: normal;
-  /* 1 */ }
+  /* 1 */
+}
 
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 progress {
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
 textarea {
-  overflow: auto; }
+  overflow: auto;
+}
 
 /**
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type="checkbox"],
-[type="radio"] {
+[type=checkbox],
+[type=radio] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto; }
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type="search"] {
+[type=search] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -274,7 +303,8 @@ textarea {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
-  /* 2 */ }
+  /* 2 */
+}
 
 /* Interactive
    ========================================================================== */
@@ -282,13 +312,15 @@ textarea {
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
 details {
-  display: block; }
+  display: block;
+}
 
 /*
  * Add the correct display in all browsers.
  */
 summary {
-  display: list-item; }
+  display: list-item;
+}
 
 /* Misc
    ========================================================================== */
@@ -296,30 +328,38 @@ summary {
  * Add the correct display in IE 10+.
  */
 template {
-  display: none; }
+  display: none;
+}
 
 /**
  * Add the correct display in IE 10.
  */
 [hidden] {
-  display: none; }
+  display: none;
+}
 
 body {
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+}
 
 header, footer {
   height: 100px;
-  background: gray; }
+  background: gray;
+}
 
 #screenshot {
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .badge-container {
-  padding: 16px; }
-  @media screen and (min-width: 700px) {
-    .badge-container {
-      display: flex;
-      justify-content: space-around; } }
+  padding: 16px;
+}
+@media screen and (min-width: 700px) {
+  .badge-container {
+    display: flex;
+    justify-content: space-around;
+  }
+}
 
 .badge {
   width: 300px;
@@ -327,50 +367,62 @@ header, footer {
   padding: 16px;
   text-align: center;
   background: transparent;
-  margin: 0 auto; }
-  .badge.black {
-    color: #454545; }
-  .badge.white {
-    color: #f4f4f4; }
-  .badge p {
-    margin: 4px 0;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    font-weight: 700;
-    line-height: 1.1; }
-    .badge p.award {
-      text-transform: uppercase; }
-    .badge p.org {
-      font-weight: 400;
-      text-transform: uppercase;
-      font-size: 16px;
-      margin-top: 8px; }
-  .badge .graphic {
-    width: 60%;
-    height: auto;
-    position: relative;
-    margin: 8px auto;
-    display: block;
-    clear: both; }
-    .badge .graphic .shape {
-      width: 100%;
-      height: auto; }
-    .badge .graphic .icon {
-      width: 66%;
-      height: auto;
-      z-index: 2;
-      position: absolute;
-      left: calc(50% - 66% / 2);
-      top: calc(50% - 66% / 2); }
+  margin: 0 auto;
+}
+.badge.black {
+  color: #454545;
+}
+.badge.white {
+  color: #f4f4f4;
+}
+.badge p {
+  margin: 4px 0;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.badge p.award {
+  text-transform: uppercase;
+}
+.badge p.org {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 8px;
+}
+.badge .graphic {
+  width: 60%;
+  height: auto;
+  position: relative;
+  margin: 8px auto;
+  display: block;
+  clear: both;
+}
+.badge .graphic .shape {
+  width: 100%;
+  height: auto;
+}
+.badge .graphic .icon {
+  width: 66%;
+  height: auto;
+  z-index: 2;
+  position: absolute;
+  left: calc(50% - 66% / 2);
+  top: calc(50% - 66% / 2);
+}
 
 .oec-ribbon {
   width: 100%;
   margin-bottom: 10px;
-  text-align: center; }
-  .oec-ribbon img {
-    width: 68%;
-    border-radius: 4px;
-    margin-left: -2px; }
+  text-align: center;
+}
+.oec-ribbon img {
+  width: 60%;
+  border-radius: 4px;
+  margin-left: -2px;
+  margin-bottom: 10px;
+}
 
 .facebook-post {
   width: 1200px;
@@ -378,31 +430,48 @@ header, footer {
   background: #3E8FDD;
   position: relative;
   display: flex;
-  align-content: center; }
-  .facebook-post .oec-white {
-    top: 32px;
-    left: calc(50% - 480px/2);
-    position: absolute;
-    width: 480px;
-    height: 144px; }
-  .facebook-post .badge {
-    width: 600px;
-    position: absolute;
-    top: 200px;
-    left: calc(50% - 600px/2); }
-    .facebook-post .badge p {
-      font-size: 44px; }
-      .facebook-post .badge p.org {
-        font-size: 32px;
-        margin-top: 12px; }
-    .facebook-post .badge .award,
-    .facebook-post .badge .year,
-    .facebook-post .badge .name,
-    .facebook-post .badge .org {
-      overflow: visible;
-      white-space: nowrap;
-      text-align: center;
-      margin: 24px -300px; }
+  align-content: center;
+}
+.facebook-post .oec-white {
+  top: 32px;
+  left: calc(50% - 165px);
+  position: absolute;
+  width: 331px;
+  height: 106px;
+}
+.facebook-post .oec-white img {
+  width: auto;
+  height: 100%;
+}
+.facebook-post .badge {
+  width: 600px;
+  position: absolute;
+  top: 200px;
+  left: calc(50% - 600px/2);
+}
+.facebook-post .badge p {
+  font-size: 44px;
+}
+.facebook-post .badge p.org {
+  font-size: 32px;
+  margin-top: 12px;
+}
+.facebook-post .badge .award,
+.facebook-post .badge .year {
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
+  margin: 24px -300px;
+}
+.facebook-post .name_wrapper {
+  height: 300px;
+  width: 800px;
+  margin-left: -100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 .oea-title {
   position: absolute;
@@ -412,200 +481,284 @@ header, footer {
   color: #f4f4f4;
   font-size: 32px;
   font-weight: 700;
-  text-transform: uppercase; }
+}
 
 .sun-rays {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, #3E8FDD, #519fe8);
-  -webkit-mask-image: repeating-conic-gradient(transparent 0 10deg, white 0 20deg); }
+  background: linear-gradient(to bottom, #1F377A, #519fe8);
+  -webkit-mask-image: repeating-conic-gradient(transparent 0 10deg, white 0 20deg);
+}
+
+.bg-square {
+  background-image: url("../img/bg-square.svg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.bg-wide {
+  background-image: url("../img/bg-wide.svg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
 
 .facebook-cover {
   width: 828px;
   height: 315px;
   background: #3E8FDD;
-  position: relative; }
-  .facebook-cover .oec-white {
-    top: calc(50% - 72px/2);
-    left: 32px;
-    position: absolute;
-    width: 240px;
-    height: 72px; }
-    .facebook-cover .oec-white img {
-      width: 100%; }
-  .facebook-cover .badge {
-    width: 222px;
-    position: absolute;
-    top: 20px;
-    left: calc(50% - 222px/2); }
-    .facebook-cover .badge p {
-      font-size: 16px; }
-      .facebook-cover .badge p.org {
-        font-size: 12px; }
-  .facebook-cover .oea-title {
-    font-size: 16px;
-    bottom: 50%;
-    right: 32px;
-    text-align: right;
-    width: 30%;
-    overflow: visible;
-    white-space: nowrap; }
-  .facebook-cover .award,
-  .facebook-cover .year,
-  .facebook-cover .name,
-  .facebook-cover .org {
-    overflow: visible;
-    white-space: nowrap;
-    text-align: center;
-    margin: 4px -200px; }
+  position: relative;
+}
+.facebook-cover .oec-white {
+  top: calc(50% - 90px/2);
+  left: 70px;
+  position: absolute;
+  width: auto;
+  height: 90px;
+}
+.facebook-cover .oec-white img {
+  width: 100%;
+}
+.facebook-cover .badge {
+  width: 222px;
+  position: absolute;
+  top: 20px;
+  left: calc(50% - 222px/2);
+}
+.facebook-cover .badge p {
+  font-size: 16px;
+}
+.facebook-cover .badge p.org {
+  font-size: 12px;
+}
+.facebook-cover .oea-title {
+  font-size: 16px;
+  bottom: 50%;
+  right: 32px;
+  text-align: right;
+  width: 30%;
+  overflow: visible;
+  white-space: nowrap;
+}
+.facebook-cover .oea-logo {
+  position: absolute;
+  z-index: 10;
+  right: -10px;
+  top: 110px;
+}
+.facebook-cover .oea-logo img {
+  width: 80%;
+  height: auto;
+}
+.facebook-cover .award,
+.facebook-cover .year,
+.facebook-cover .name,
+.facebook-cover .org {
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
+  margin: 4px -200px;
+}
+.facebook-cover .award {
+  margin-top: -10px;
+}
+.facebook-cover .year {
+  margin-bottom: 20px;
+}
+.facebook-cover .name {
+  margin-top: 20px;
+}
 
 .email-image {
   width: 600px;
   height: 477px;
   background: #3E8FDD;
-  position: relative; }
-  .email-image .oec-white {
-    top: 16px;
-    left: calc(50% - 240px /2);
-    position: absolute;
-    width: 240px;
-    height: 72px; }
-    .email-image .oec-white img {
-      width: 100%; }
-  .email-image .badge {
-    width: 242px;
-    position: absolute;
-    top: 84px;
-    left: calc(50% - 222px/2); }
-    .email-image .badge p {
-      font-size: 18px; }
-      .email-image .badge p.org {
-        font-size: 14px; }
-  .email-image .oea-title {
-    font-size: 16px;
-    bottom: 24px;
-    text-align: center;
-    width: 100%; }
-  .email-image .award,
-  .email-image .year,
-  .email-image .name,
-  .email-image .org {
-    overflow: visible;
-    white-space: nowrap;
-    text-align: center;
-    margin: 8px -180px; }
+  position: relative;
+}
+.email-image .oec-white {
+  top: 16px;
+  left: calc(50% - 180px /2);
+  position: absolute;
+  width: 180px;
+  height: auto;
+}
+.email-image .oec-white img {
+  width: 100%;
+}
+.email-image .badge {
+  width: 242px;
+  position: absolute;
+  top: 84px;
+  left: calc(50% - 222px/2);
+}
+.email-image .badge p {
+  font-size: 18px;
+}
+.email-image .badge p.org {
+  font-size: 14px;
+}
+.email-image .oea-title {
+  font-size: 16px;
+  bottom: 24px;
+  text-align: center;
+  width: 100%;
+}
+.email-image .award,
+.email-image .year,
+.email-image .name,
+.email-image .org {
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
+  margin: 8px -180px;
+}
+.email-image .award {
+  margin-top: 0px;
+}
+.email-image .year {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.email-image .name {
+  margin-top: 30px;
+}
 
 .certificate-image {
   height: 209mm;
   width: 297mm;
   display: flex;
-  border: 1px solid gray; }
-  .certificate-image .content {
-    position: relative;
-    width: 250mm;
-    padding: 15mm;
-    box-sizing: border-box;
-    color: #454545;
-    background: transparent; }
-    .certificate-image .content .data {
-      position: relative;
-      padding-top: 10mm;
-      z-index: 99; }
-      .certificate-image .content .data:before {
-        content: "";
-        background: #D9F593;
-        width: 40mm;
-        height: 5mm;
-        position: absolute;
-        left: 0;
-        top: -16px; }
-      .certificate-image .content .data .badge-horizontal {
-        display: flex;
-        align-items: center;
-        margin: 5mm 0 10mm; }
-        .certificate-image .content .data .badge-horizontal .icon {
-          width: 80px;
-          margin-right: 6mm; }
-        .certificate-image .content .data .badge-horizontal .award {
-          font-size: 32px;
-          letter-spacing: -0.25px;
-          text-transform: uppercase;
-          font-weight: 700;
-          margin: 0; }
-      .certificate-image .content .data .project {
-        font-size: 54px;
-        color: #454545;
-        letter-spacing: -0.71px;
-        font-weight: 700;
-        margin: 6mm 0; }
-      .certificate-image .content .data .name {
-        margin: 12mm 0 6mm;
-        font-size: 32px;
-        letter-spacing: -0.31px; }
-      .certificate-image .content .data .org {
-        margin: 0;
-        font-size: 24px;
-        letter-spacing: -0.31px; }
-    .certificate-image .content .signatures {
-      position: absolute;
-      bottom: 20mm;
-      left: 20mm;
-      display: flex;
-      width: 632px;
-      justify-content: flex-start; }
-      .certificate-image .content .signatures .one, .certificate-image .content .signatures .two {
-        font-size: 14px;
-        font-weight: 700;
-        text-align: center;
-        margin-right: 20mm;
-        min-width: 40mm;
-        border-top: 1px solid #454545;
-        padding-top: 8px;
-        position: relative; }
-        .certificate-image .content .signatures .one img, .certificate-image .content .signatures .two img {
-          position: absolute;
-          bottom: 102%;
-          left: calc(50% - 93px);
-          width: 186px; }
-        .certificate-image .content .signatures .one p, .certificate-image .content .signatures .two p {
-          line-height: 1.5; }
-        .certificate-image .content .signatures .one span, .certificate-image .content .signatures .two span {
-          font-size: 12px;
-          font-style: italic;
-          font-weight: 300;
-          display: block; }
-  .certificate-image .ribbon {
-    width: 47mm;
-    background: #3E8FDD;
-    padding: 10mm 10mm 10mm 5mm;
-    box-sizing: border-box;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap; }
-    .certificate-image .ribbon:before {
-      content: "";
-      background: url(../img/logo-icon.svg) no-repeat;
-      height: 445px;
-      width: 435px;
-      position: absolute;
-      left: 200mm;
-      top: 40mm;
-      mix-blend-mode: multiply; }
-    .certificate-image .ribbon .oec-oval {
-      width: 35mm;
-      align-self: flex-start; }
-    .certificate-image .ribbon .oea-logo {
-      width: 35mm;
-      margin: 0 auto;
-      align-self: flex-end; }
-    .certificate-image .ribbon .year {
-      font-size: 24px;
-      letter-spacing: 0.5px;
-      font-weight: 700;
-      color: #f4f4f4;
-      width: 100%;
-      align-self: flex-end;
-      text-shadow: 1px 1px 2px rgba(29, 29, 29, 0.8); }
+  border: 1px solid gray;
+}
+.certificate-image .content {
+  position: relative;
+  width: 250mm;
+  padding: 15mm;
+  box-sizing: border-box;
+  color: #454545;
+  background: transparent;
+}
+.certificate-image .content .data {
+  position: relative;
+  padding-top: 10mm;
+  z-index: 99;
+}
+.certificate-image .content .data:before {
+  content: "";
+  background: #FFE525;
+  width: 40mm;
+  height: 5mm;
+  position: absolute;
+  left: 0;
+  top: -16px;
+}
+.certificate-image .content .data .badge-horizontal {
+  display: flex;
+  align-items: center;
+  margin: 5mm 0 10mm;
+}
+.certificate-image .content .data .badge-horizontal .icon {
+  width: 80px;
+  margin-right: 6mm;
+}
+.certificate-image .content .data .badge-horizontal .award {
+  font-size: 32px;
+  letter-spacing: -0.25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+}
+.certificate-image .content .data .project {
+  font-size: 54px;
+  color: #454545;
+  letter-spacing: -0.71px;
+  font-weight: 700;
+  margin: 6mm 0;
+}
+.certificate-image .content .data .name {
+  margin: 12mm 0 6mm;
+  font-size: 32px;
+  letter-spacing: -0.31px;
+}
+.certificate-image .content .data .org {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: -0.31px;
+}
+.certificate-image .content .signatures {
+  position: absolute;
+  bottom: 20mm;
+  left: 20mm;
+  display: flex;
+  width: 632px;
+  justify-content: flex-start;
+}
+.certificate-image .content .signatures .one, .certificate-image .content .signatures .two {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  margin-right: 20mm;
+  min-width: 40mm;
+  border-top: 1px solid #454545;
+  padding-top: 8px;
+  position: relative;
+}
+.certificate-image .content .signatures .one img, .certificate-image .content .signatures .two img {
+  position: absolute;
+  bottom: 102%;
+  left: calc(50% - 93px);
+  width: 186px;
+}
+.certificate-image .content .signatures .one p, .certificate-image .content .signatures .two p {
+  line-height: 1.5;
+}
+.certificate-image .content .signatures .one span, .certificate-image .content .signatures .two span {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+  display: block;
+}
+.certificate-image .ribbon {
+  width: 47mm;
+  background: #1F377A;
+  padding: 10mm 10mm 10mm 5mm;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.certificate-image .ribbon:before {
+  content: "";
+  background: url(../img/logo-watermark.svg) no-repeat;
+  background-size: contain;
+  height: calc(326px * 1.6);
+  width: calc(430px * 1.6);
+  position: absolute;
+  left: 200mm;
+  top: 35mm;
+  z-index: 0;
+  mix-blend-mode: multiply;
+}
+.certificate-image .ribbon .oec-oval {
+  width: 35mm;
+  align-self: flex-start;
+  margin-right: -5px;
+}
+.certificate-image .ribbon .oea-logo {
+  width: 35mm;
+  margin: 0 auto;
+  align-self: flex-end;
+}
+.certificate-image .ribbon .year {
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  color: #f4f4f4;
+  width: 100%;
+  align-self: flex-end;
+  text-shadow: 1px 1px 2px rgba(29, 29, 29, 0.8);
+}
 
 /*# sourceMappingURL=styles.css.map */

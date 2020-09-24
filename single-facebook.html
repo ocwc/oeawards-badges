@@ -2,35 +2,37 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <title>Facebook Image</title>
-  <meta name="description" content="Facebook post">
-  <meta name="author" content="OEC">
+    <title>Facebook Image</title>
+    <meta name="description" content="Facebook post">
+    <meta name="author" content="OEC">
 
-  <link rel="stylesheet" href="{{TEMPLATE_STATIC}}css/styles.css?v=1.0">
-	
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    <link rel="stylesheet" href="{{TEMPLATE_STATIC}}css/styles.css?v=1.0">
+
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </head>
 
 <body>
 
-	
-  <div id="screenshot" class="facebook-post">
-    <div class="sun-rays"></div>
-    <div class="oec-white"><img src="{{TEMPLATE_STATIC}}img/inverted.svg" alt="Logo"></div>
-      <div class="badge white">
-          <p class="award">{{data.category}}</p>
-          <p class="year">Award for Excellence<br>{{data.year}}</p>
+
+<div id="screenshot" class="facebook-post">
+    <div class="bg-square"></div>
+    <div class="oec-white"><img src="{{TEMPLATE_STATIC}}img/awards-logo.svg" alt="Logo"></div>
+    <div class="badge white">
+        <p class="award">{{data.category}}</p>
+        <p class="year">Award for Excellence<br>{{data.year}}</p>
         <div class="graphic">
-          <img src="{{TEMPLATE_STATIC}}img/badge/shape/{{data.shape}}.svg" class="shape" alt="">
-          <img src="{{TEMPLATE_STATIC}}img/badge/icon/{{data.icon}}.svg" class="icon" alt="">
+            <img src="{{TEMPLATE_STATIC}}img/badge/shape/{{data.shape}}.svg" class="shape" alt="">
+            <img src="{{TEMPLATE_STATIC}}img/badge/icon/{{data.icon}}.svg" class="icon" alt="">
         </div><!-- .graphic -->
-      <p class="name">{{data.winner1}} {% if data.winner2 %}<br />{{data.winner2}}{% endif %}</p>
-      {% if data.institutionb %}<p class="org">{{data.institutionb}}</p>{% endif %}
-      </div><!-- .badge -->
-    <div class="oea-title">Open Education Awards</div>
-  </div><!-- .facebook-post -->
+        <div class="name_wrapper">
+            <p class="name">{{data.winner1}} {% if data.winner2 %}<br/>{{data.winner2}}{% endif %}</p>
+            {% if data.institutionb %}<p class="org">{{data.institutionb}}</p>{% endif %}
+        </div>
+    </div><!-- .badge -->
+    <div class="oea-title">awards.oeglobal.org</div>
+</div><!-- .facebook-post -->
 
 </body>
 </html>
