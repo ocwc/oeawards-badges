@@ -23,8 +23,8 @@
 			<img src="{{TEMPLATE_STATIC}}img/badge/shape/{{data.shape}}.svg" class="shape" aria-hidden="true">
 			<img src="{{TEMPLATE_STATIC}}img/badge/icon/{{data.icon}}.svg" class="icon" aria-hidden="true">
 		</div>
-		<p class="name">{{data.winner1}} {% if data.winner2 %}<br>{{data.winner2}} {% endif %}</p>
-		{% if data.institutionb %}<p class="org">{{data.institutionb}}</p>{% endif %}
+		<p class="name">{{data.winner1}} {% if data.winner2 %}<br />{{data.winner2}}{% endif %} {% if data.winner3 %}<br />{{data.winner3}}{% endif %}</p>
+		{% if data.institutionb %}<p class="org">{{data.institutionb}}{% if data.institutionc %}<br />{{data.institutionc}}{% endif %}</p>{% endif %}
 	</div><!-- .badge -->
 
 </body>

@@ -60,9 +60,9 @@
         </div>
 
           <!-- <div class="project">{{data.project}}</div> -->
-          <div class="project">{{data.winner1}}{% if data.winner2 %} {{data.winner2}}{% endif %}{% if data.winner3 %}{{data.winner3}}{% endif %}</div>
-          {% if data.name %}<div class="name">{{data.name}}</div>{% endif %}
-          {% if data.institutionc %}<div class="org">{{data.institutionc}}</div>{% endif %}
+          <div class="project">{{data.winner1}}{% if data.winner2 %} {{data.winner2}}{% endif %}{% if data.winner3 %} {{data.winner3}}{% endif %}</div>
+          {% if data.name != data.winner1 %}<div class="name">{{data.name}}</div>{% endif %}
+          {% if data.institutionb %}<div class="org">{{data.institutionb}}{% if data.institutionc %}<br />{{data.institutionc}}{% endif %}</div>{% endif %}
 
       </div><!-- .data -->
 
